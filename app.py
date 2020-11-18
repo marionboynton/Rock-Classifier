@@ -24,7 +24,7 @@ def predict(img, display_img):
         time.sleep(3)
 
     # Load model and make prediction
-    model  = load_learner('/home/cate/Cate/DSI/rock_classification/model/', 'stage-1.pkl')
+    model  = load_learner('/home/cate/Cate/DSI/Rock-Classifier/model/', 'stage-1.pkl')
     pred_class = model.predict(img)[0] # get the predicted class
     pred_prob = round(torch.max(model.predict(img)[2]).item()*100) # get the max probability
     
@@ -45,12 +45,12 @@ option = st.radio('', ['Choose a test image', 'Choose your own image'])
 if option == 'Choose a test image':
             
     # Test image selection
-    test_images = os.listdir('/home/cate/Cate/DSI/rock_classification/samp/')
+    test_images = os.listdir('/home/cate/Cate/DSI/Rock-Classifier/samp/')
     test_image = st.selectbox(
         'Please select a test image:', test_images)
     
     # Read the image
-    file_path = '/home/cate/Cate/DSI/rock_classification/samp/' + test_image
+    file_path = '/home/cate/Cate/DSI/Rock-Classifier/samp/' + test_image
     img = open_image(file_path)
     
     # Get the image to display
