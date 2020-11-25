@@ -2,7 +2,11 @@
 This project was part of the [Data Science Intensive program](http://dsi-program.com/) module 2 project which emerged the best. Find the certification [here](https://drive.google.com/file/d/1dY4UCGuzdROj7-f2MNAf3kWuxqE__yld/view?usp=sharing). This project's aim was to 
 train a machine vision classifier that identifies five types of material classes for a large mining company in South Africa to allow automatic monitoring of the input bins for their funace. The image sampling system was already implemented and raw image data that is not classified was available. The purpose of this is to help the organization to reduce the material handling errors which leads to inefficiencies in the furnace and drives up production costs. 
 
-You can find more details about the project [here](https://drive.google.com/file/d/1l0Qn4SAmuLEnZRbXlueGBjxG2f-m8Q4H/view?usp=sharing)
+[rocks](/images/rock_1.png)
+[rocks](/images/rock_2.png)
+
+You can find the project report in this notebook: []
+
 
 
 ## Summary
@@ -43,4 +47,4 @@ You can find more details about the project [here](https://drive.google.com/file
 
  ### Acknowledgements
 
- We'd like to thank [Emile Lochner](https://www.linkedin.com/in/emile-lochner-94013914b/?originalSubdomain=za) who was our Tutor for the duration of this project.
+ We'd like to thank [Emmanuel Sekyi](https://www.linkedin.com/in/thesekyi/?originalSubdomain=gh) who was our Tutor for the duration of this project.
